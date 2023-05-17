@@ -1,0 +1,31 @@
+.content{
+    background-color: rgba(80,80,80, 0.3);
+    box-sizing: border-box;
+    box-shadow: inset 5px 15px 80px rgba(255, 255, 255, 0.719);
+    border-radius: 5px;
+    position: relative;
+    top: 10%;
+    margin: 5rem 1rem;
+    padding: 2rem 2rem;
+    color: rgba(245, 245, 245, 0.863)
+}
+.content h2{
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+}
+.content p{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.content p::first-letter{
+    margin-left: 1.5rem;
+}
+@media screen and (max-width:760px) {
+    .content{
+        padding: 0.5rem 0.5rem;
+    }
+    .content p{
+        font-size: 1rem;
+    }
+}
