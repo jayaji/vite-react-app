@@ -11,7 +11,7 @@ export default function NavBar() {
     <div className='navigation'>
      <div className="logo">Ocean</div>
      <button type="submit" onClick={handleClick}>Menu</button>
-     <div className="link" style={{display: isActive?'none':'block'}}>
+     <div className="link" style={{display: isActive?'block':'none'}}>
         <a href="/" className="tab">Home</a>
         <a href="/" className="tab">About</a>
         <a href="/" className="tab">Services</a>

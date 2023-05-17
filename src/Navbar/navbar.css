@@ -24,10 +24,13 @@ html{
     font-style: italic;
     margin-left: 0.7%;
     color: rgb(194, 26, 26);
-    margin-top: 3%;
 }
 .link{
+  display: block;
     margin-left: auto;
+}
+button{
+  display: none;
 }
 a{  
     display: inline-block;
@@ -37,9 +40,6 @@ a{
     padding: 1rem 1.2rem;
     margin-right: 1rem;
     color: white;
-}
-button{
-  display: none;
 }
 @keyframes color {
   0%   { background: #33CCCC; }
@@ -54,8 +54,8 @@ button{
       animation: none;
       width: 90%;
     }
-    .link{
-      display: none;
+    .logo{ 
+    margin-top: 3%;
     }
     a{
       display: block;
