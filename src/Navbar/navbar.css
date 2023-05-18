@@ -12,8 +12,8 @@ html{
     position: fixed;
     top: 0%;
     padding: 0.5rem 1.2rem;
-    animation: color 9s infinite linear;
     color: black;
+    background-color: #0b0e2cef;
     box-shadow:inset 0 2px 2px 2px rgba(9, 9, 9, 0.23);
     z-index: 1;
   }
@@ -41,17 +41,9 @@ a{
     margin-right: 1rem;
     color: white;
 }
-@keyframes color {
-  0%   { background: #33CCCC; }
-  30%  { background: #b3c05f; }
-  60%  { background: #09464bef;}
-  100% { background: #33CCCC; }
-}
 @media screen and (max-width: 768px) {
     .navigation{
       display: block;
-      background-color: #0b0e2cef;
-      animation: none;
       width: 90%;
     }
     .logo{ 
